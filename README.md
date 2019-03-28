@@ -23,7 +23,7 @@ checks if a path exists.
 ```csharp
  public static bool IsFileLocked(string _filePath)
  ```
-checks if a file is locked. (The file may be unavailable because it is still be written to, or being processed by another thread, or does not exist. This is from [nikunjM's answer on Stack Overflow](https://stackoverflow.com/questions/46915165/error-when-using-itext-the-process-cannot-access-the-file-because-it-is-being-u))
+checks if a file is locked. (The file may be unavailable because it is still be written to, or being processed by another thread, or does not exist. This is from [nikunjM's answer on Stack Overflow](https://stackoverflow.com/a/46915212))
 
 Note
 ---
